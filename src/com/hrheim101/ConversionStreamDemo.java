@@ -7,6 +7,7 @@ import java.io.*;
 public class ConversionStreamDemo {
     public static void main(String[] args) throws IOException {
 //        OutputStreamWriter fos=new OutputStreamWriter("java.txt");
+        System.out.println("Fdsfsd");
         FileOutputStream fos=new FileOutputStream("jva.txt",true);
 
         FileInputStream fis=new FileInputStream("jva.txt");
